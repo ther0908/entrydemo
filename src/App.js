@@ -36,7 +36,7 @@ function App() {
 
         // 判断是否处于Sepolia测试网链
         const network = await provider.getNetwork();
-        if(network.chainId != 11155111){
+        if(network.chainId != 5){
           alert("请检查自己所处的网络");
           return;
         }
